@@ -13,7 +13,7 @@ COPY . .
 
 # Expose port 5000 for the application
 EXPOSE 5000
-
+ 
 # Command to run the app
 CMD ["python", "app.py"]
 
